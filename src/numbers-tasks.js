@@ -33,8 +33,8 @@ function getRectangleArea(a, b) {
  *   3.14 => 19.729201864543903
  *   0    => 0
  */
-function getCircleCircumference(/* radius */) {
-  throw new Error('Not implemented');
+function getCircleCircumference(R) {
+  return Math.PI * 2 * R;
 }
 
 /**
